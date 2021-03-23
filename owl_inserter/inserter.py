@@ -1,26 +1,27 @@
 from owlready2 import sync_reasoner_pellet, destroy_entity
-
+import pickle
 
 def inserter(file, onto, save_path, reasoner=False):
-  with open(file, 'r') as f:
-    triples = f.readlines()
+  with open(file, 'rb') as f:
+    triples = pickle.load(f)
 
-  for triple in triples:
-    t = triple.split('>')
+  for t in triples:
+    subject = t['subject']['value'].split('/')[-1]
+    predicate = t['predicate']['value'].split('/')[-1]
+    object = convertisor(t['object']) 
 
-    i = t[0].split('/')[-1]
-    p = t[1].split('/')[-1]
-    o = convertisor(t[2])
 
-    if o != None: 
-      s = onto.BikeStation(i)
+    if object != None: 
+      s = onto.BikeStation(subject) 
       map_list = {'Name':s.Name, 
                   'Lat':s.Lat, 
                   'Long':s.Long, 
                   'Lastupdate':s.Lastupdate,
                   'AvailableBikes': s.AvailableBikes,
                   'AvailableBikeStands': s.AvailableBikeStands}
-      map_list[p].append(o)
+
+      map_list[predicate].append(object)
+
   pre_reasoner(onto)
   if reasoner:
     with onto:
@@ -28,29 +29,26 @@ def inserter(file, onto, save_path, reasoner=False):
   onto.save(save_path)
 
 
+
 def pre_reasoner(onto):
   for i in onto.individuals():
     if i.AvailableBikes == i.AvailableBikeStands == [0]:
       destroy_entity(i)
 
-
 def convertisor(data):
-  data = data.split('xsd:')
+  _type, o = data['datatype'], data['value']
 
-  _type, o = data[-1], data[0]
-  o = o.replace('^^<', '').replace('"', '')
-
-  if _type == 'integer':
+  if _type == 'xsd:integer':
     try:
       res = int(o)
     except: 
       res = None
-  elif _type == 'decimal':
+  elif _type == 'xsd:decimal':
     try:
       res = float(o)
     except:
       res = None
-  elif _type == 'dateTime':
+  elif _type == 'xsd:dateTime':
     res = o
   else: 
     res = o

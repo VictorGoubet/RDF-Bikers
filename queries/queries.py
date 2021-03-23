@@ -55,9 +55,24 @@ class SparqlQueries:
   def getAllCoord(self, disp=True):
     query = """PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
                PREFIX  ns:<http://www.semanticweb.org/victo/ontologies/2021/2/bike#>
-               SELECT ?x ?y WHERE { 
+               SELECT ?s ?x ?y WHERE { 
                   ?s ns:Lat ?x . 
                   ?s ns:Long ?y .
                }"""
     qres = self.graph.query(query)
-    return self.extract_res(qres, ['x', 'y'], disp)
+    return self.extract_res(qres, ['s', 'x', 'y'], disp)
+
+  def getInfo_by_id(self, id, disp=True):
+    query = '''PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+               PREFIX  ns:<http://www.semanticweb.org/victo/ontologies/2021/2/bike#>
+               SELECT ?abs ?ab ?lu ?name ?lat ?long WHERE { 
+                  ns:'''+str(id)+''' ns:Lat ?lat .
+                  ns:'''+str(id)+''' ns:Long ?long .
+                  ns:'''+str(id)+''' ns:Name ?name .
+                  ns:'''+str(id)+''' ns:AvailableBikeStands ?abs .
+                  ns:'''+str(id)+''' ns:AvailableBikes ?ab .
+                  ns:'''+str(id)+''' ns:Lastupdate ?lu .
+               }'''
+    
+    qres = self.graph.query(query)
+    return self.extract_res(qres, ['abs', 'ab', 'lu', 'name', 'lat', 'long'], disp)

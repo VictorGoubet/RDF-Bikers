@@ -6,7 +6,8 @@ def owl_inserter(AvailableCity):
   ontologies = []
   for city in AvailableCity:
     onto = get_ontology("./ontology/bike.owl").load()
-    inserter(f'./rdf_data/Bike{city}.n3', onto, f'./ontology/{city}.owl', reasoner=True)
+    inserter(f'./rdf_data/Triple_Bike{city}.obj', onto, f'./ontology/{city}.owl', reasoner=True)
     ontologies.append(f'./ontology/{city}.owl')
   return ontologies
+
 

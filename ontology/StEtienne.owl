@@ -132,12 +132,12 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#BikeAvailableStation"/>
   <rdf:type rdf:resource="#StandFreeStation"/>
-  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</AvailableBikeStands>
-  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</AvailableBikes>
-  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> 1616423634</Lastupdate>
+  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</AvailableBikeStands>
+  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</AvailableBikes>
+  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1616512134</Lastupdate>
   <Lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45.442972</Lat>
   <Long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.398855</Long>
-  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Châteaucreux</Name>
+  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Châteaucreux</Name>
 </BikeStation>
 
 <BikeStation rdf:about="#102">
@@ -146,46 +146,46 @@
   <rdf:type rdf:resource="#StandFreeStation"/>
   <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</AvailableBikeStands>
   <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</AvailableBikes>
-  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> 1616424025</Lastupdate>
+  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1616511528</Lastupdate>
   <Lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45.453601</Lat>
   <Long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.383062</Long>
-  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Chaléassiere</Name>
+  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chaléassiere</Name>
 </BikeStation>
 
 <BikeStation rdf:about="#103">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#BikeAvailableStation"/>
   <rdf:type rdf:resource="#StandFreeStation"/>
-  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</AvailableBikeStands>
-  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</AvailableBikes>
-  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> 1616423682</Lastupdate>
+  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</AvailableBikeStands>
+  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</AvailableBikes>
+  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1616511883</Lastupdate>
   <Lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45.447093</Lat>
   <Long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.385487</Long>
-  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Carnot</Name>
+  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carnot</Name>
 </BikeStation>
 
 <BikeStation rdf:about="#104">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#BikeAvailableStation"/>
   <rdf:type rdf:resource="#StandFreeStation"/>
-  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</AvailableBikeStands>
-  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</AvailableBikes>
-  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> 1616423630</Lastupdate>
+  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</AvailableBikeStands>
+  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</AvailableBikes>
+  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1616511621</Lastupdate>
   <Lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45.441888</Lat>
   <Long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.382492</Long>
-  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jacquard</Name>
+  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jacquard</Name>
 </BikeStation>
 
 <BikeStation rdf:about="#105">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#BikeAvailableStation"/>
   <rdf:type rdf:resource="#StandFreeStation"/>
-  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</AvailableBikeStands>
-  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</AvailableBikes>
-  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> 1616423358</Lastupdate>
+  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</AvailableBikeStands>
+  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</AvailableBikes>
+  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1616512298</Lastupdate>
   <Lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45.440725</Lat>
   <Long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.387295</Long>
-  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jaures</Name>
+  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jaures</Name>
 </BikeStation>
 
 <BikeStation rdf:about="#106">
@@ -194,46 +194,46 @@
   <rdf:type rdf:resource="#StandFreeStation"/>
   <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</AvailableBikeStands>
   <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</AvailableBikes>
-  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> 1616423869</Lastupdate>
+  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1616512307</Lastupdate>
   <Lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45.43836</Lat>
   <Long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.388435</Long>
-  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Dorian</Name>
+  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dorian</Name>
 </BikeStation>
 
 <BikeStation rdf:about="#107">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#BikeAvailableStation"/>
   <rdf:type rdf:resource="#StandFreeStation"/>
-  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</AvailableBikeStands>
-  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</AvailableBikes>
-  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> 1616423989</Lastupdate>
+  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</AvailableBikeStands>
+  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</AvailableBikes>
+  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1616512190</Lastupdate>
   <Lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45.436903</Lat>
   <Long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.378789</Long>
-  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Clapier</Name>
+  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clapier</Name>
 </BikeStation>
 
 <BikeStation rdf:about="#108">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#BikeAvailableStation"/>
   <rdf:type rdf:resource="#StandFreeStation"/>
-  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</AvailableBikeStands>
-  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</AvailableBikes>
-  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> 1616424004</Lastupdate>
+  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</AvailableBikeStands>
+  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</AvailableBikes>
+  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1616512204</Lastupdate>
   <Lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45.436265</Lat>
   <Long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.387539</Long>
-  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Peuple</Name>
+  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peuple</Name>
 </BikeStation>
 
 <BikeStation rdf:about="#109">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#BikeAvailableStation"/>
   <rdf:type rdf:resource="#StandFreeStation"/>
-  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</AvailableBikeStands>
-  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</AvailableBikes>
-  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> 1616423425</Lastupdate>
+  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</AvailableBikeStands>
+  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</AvailableBikes>
+  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1616511626</Lastupdate>
   <Lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45.4328</Lat>
   <Long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.388035</Long>
-  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> A. Thomas</Name>
+  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A. Thomas</Name>
 </BikeStation>
 
 <BikeStation rdf:about="#110">
@@ -242,94 +242,94 @@
   <rdf:type rdf:resource="#StandFreeStation"/>
   <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</AvailableBikeStands>
   <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</AvailableBikes>
-  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> 1616423467</Lastupdate>
+  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1616511669</Lastupdate>
   <Lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45.43065</Lat>
   <Long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.389752</Long>
-  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> A. France</Name>
+  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A. France</Name>
 </BikeStation>
 
 <BikeStation rdf:about="#111">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#BikeAvailableStation"/>
   <rdf:type rdf:resource="#StandFreeStation"/>
-  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</AvailableBikeStands>
-  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</AvailableBikes>
-  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> 1616423493</Lastupdate>
+  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</AvailableBikeStands>
+  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</AvailableBikes>
+  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1616511695</Lastupdate>
   <Lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45.427396</Lat>
   <Long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.386718</Long>
-  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Tardy</Name>
+  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tardy</Name>
 </BikeStation>
 
 <BikeStation rdf:about="#112">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#BikeAvailableStation"/>
   <rdf:type rdf:resource="#StandFreeStation"/>
-  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</AvailableBikeStands>
-  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</AvailableBikes>
-  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> 1616423493</Lastupdate>
+  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</AvailableBikeStands>
+  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</AvailableBikes>
+  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1616512293</Lastupdate>
   <Lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45.427296</Lat>
   <Long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.390669</Long>
-  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Tréfilerie</Name>
+  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tréfilerie</Name>
 </BikeStation>
 
 <BikeStation rdf:about="#113">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#BikeAvailableStation"/>
   <rdf:type rdf:resource="#StandFreeStation"/>
-  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</AvailableBikeStands>
-  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</AvailableBikes>
-  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> 1616423309</Lastupdate>
+  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</AvailableBikeStands>
+  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</AvailableBikes>
+  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1616511509</Lastupdate>
   <Lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45.42342</Lat>
   <Long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.392292</Long>
-  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Centre 2</Name>
+  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centre 2</Name>
 </BikeStation>
 
 <BikeStation rdf:about="#114">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#BikeAvailableStation"/>
   <rdf:type rdf:resource="#StandFreeStation"/>
-  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</AvailableBikeStands>
-  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</AvailableBikes>
-  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> 1616423583</Lastupdate>
+  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</AvailableBikeStands>
+  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</AvailableBikes>
+  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1616511546</Lastupdate>
   <Lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45.415579</Lat>
   <Long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.393322</Long>
-  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Bellevue</Name>
+  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bellevue</Name>
 </BikeStation>
 
 <BikeStation rdf:about="#115">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#BikeAvailableStation"/>
   <rdf:type rdf:resource="#StandFreeStation"/>
-  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</AvailableBikeStands>
-  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</AvailableBikes>
-  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> 1616423924</Lastupdate>
+  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</AvailableBikeStands>
+  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</AvailableBikes>
+  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1616512128</Lastupdate>
   <Lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45.426972</Lat>
   <Long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.404048</Long>
-  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Congrès</Name>
+  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Congrès</Name>
 </BikeStation>
 
 <BikeStation rdf:about="#116">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#BikeAvailableStation"/>
   <rdf:type rdf:resource="#StandFreeStation"/>
-  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</AvailableBikeStands>
-  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</AvailableBikes>
-  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> 1616423413</Lastupdate>
+  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</AvailableBikeStands>
+  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</AvailableBikes>
+  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1616511615</Lastupdate>
   <Lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45.431808</Lat>
   <Long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.395127</Long>
-  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Villeboeuf</Name>
+  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Villeboeuf</Name>
 </BikeStation>
 
 <BikeStation rdf:about="#117">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#BikeAvailableStation"/>
   <rdf:type rdf:resource="#StandFreeStation"/>
-  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</AvailableBikeStands>
-  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</AvailableBikes>
-  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> 1616423827</Lastupdate>
+  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</AvailableBikeStands>
+  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</AvailableBikes>
+  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1616512296</Lastupdate>
   <Lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45.435109</Lat>
   <Long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.391962</Long>
-  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Chavanelle</Name>
+  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chavanelle</Name>
 </BikeStation>
 
 <BikeStation rdf:about="#118">
@@ -338,58 +338,58 @@
   <rdf:type rdf:resource="#StandFreeStation"/>
   <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</AvailableBikeStands>
   <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</AvailableBikes>
-  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> 1616423552</Lastupdate>
+  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1616512352</Lastupdate>
   <Lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45.437404</Lat>
   <Long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.392469</Long>
-  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> J. Moulin</Name>
+  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J. Moulin</Name>
 </BikeStation>
 
 <BikeStation rdf:about="#119">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#BikeAvailableStation"/>
   <rdf:type rdf:resource="#StandFreeStation"/>
-  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</AvailableBikeStands>
-  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</AvailableBikes>
-  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> 1616423889</Lastupdate>
+  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</AvailableBikeStands>
+  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</AvailableBikes>
+  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1616511868</Lastupdate>
   <Lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45.4395</Lat>
   <Long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.395669</Long>
-  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Fourneyron</Name>
+  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fourneyron</Name>
 </BikeStation>
 
 <BikeStation rdf:about="#120">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#BikeAvailableStation"/>
   <rdf:type rdf:resource="#StandFreeStation"/>
-  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</AvailableBikeStands>
-  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</AvailableBikes>
-  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> 1616423311</Lastupdate>
+  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</AvailableBikeStands>
+  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</AvailableBikes>
+  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1616511512</Lastupdate>
   <Lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45.439538</Lat>
   <Long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.403407</Long>
-  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> St Francois</Name>
+  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">St Francois</Name>
 </BikeStation>
 
 <BikeStation rdf:about="#121">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#BikeAvailableStation"/>
   <rdf:type rdf:resource="#StandFreeStation"/>
-  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</AvailableBikeStands>
-  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</AvailableBikes>
-  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> 1616423832</Lastupdate>
+  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</AvailableBikeStands>
+  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</AvailableBikes>
+  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1616512321</Lastupdate>
   <Lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45.45915</Lat>
   <Long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.382838</Long>
-  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Bergson-Odde</Name>
+  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bergson-Odde</Name>
 </BikeStation>
 
 <BikeStation rdf:about="#122">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#BikeAvailableStation"/>
   <rdf:type rdf:resource="#StandFreeStation"/>
-  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</AvailableBikeStands>
-  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</AvailableBikes>
-  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> 1616423782</Lastupdate>
+  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</AvailableBikeStands>
+  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</AvailableBikes>
+  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1616511982</Lastupdate>
   <Lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45.46502</Lat>
   <Long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.37874</Long>
-  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Terrasse</Name>
+  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Terrasse</Name>
 </BikeStation>
 
 <BikeStation rdf:about="#123">
@@ -398,10 +398,10 @@
   <rdf:type rdf:resource="#StandFreeStation"/>
   <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</AvailableBikeStands>
   <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</AvailableBikes>
-  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> 1616423208</Lastupdate>
+  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1616512308</Lastupdate>
   <Lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45.422732</Lat>
   <Long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.409376</Long>
-  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Marx</Name>
+  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marx</Name>
 </BikeStation>
 
 <BikeStation rdf:about="#124">
@@ -410,34 +410,34 @@
   <rdf:type rdf:resource="#StandFreeStation"/>
   <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</AvailableBikeStands>
   <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</AvailableBikes>
-  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> 1616423617</Lastupdate>
+  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1616511818</Lastupdate>
   <Lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45.448458</Lat>
   <Long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.39492</Long>
-  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Janin</Name>
+  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Janin</Name>
 </BikeStation>
 
 <BikeStation rdf:about="#125">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#BikeAvailableStation"/>
   <rdf:type rdf:resource="#StandFreeStation"/>
-  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</AvailableBikeStands>
-  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</AvailableBikes>
-  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> 1616423533</Lastupdate>
+  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</AvailableBikeStands>
+  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</AvailableBikes>
+  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1616511734</Lastupdate>
   <Lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45.450015</Lat>
   <Long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.402351</Long>
-  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Soleil</Name>
+  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soleil</Name>
 </BikeStation>
 
 <BikeStation rdf:about="#126">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#BikeAvailableStation"/>
   <rdf:type rdf:resource="#StandFreeStation"/>
-  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</AvailableBikeStands>
-  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</AvailableBikes>
-  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> 1616423915</Lastupdate>
+  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</AvailableBikeStands>
+  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</AvailableBikes>
+  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1616511516</Lastupdate>
   <Lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45.479487</Lat>
   <Long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.362541</Long>
-  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Hôp. Nord</Name>
+  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hôp. Nord</Name>
 </BikeStation>
 
 <BikeStation rdf:about="#127">
@@ -446,70 +446,70 @@
   <rdf:type rdf:resource="#StandFreeStation"/>
   <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</AvailableBikeStands>
   <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</AvailableBikes>
-  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> 1616423237</Lastupdate>
+  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1616512337</Lastupdate>
   <Lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45.4732778</Lat>
   <Long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.3665277</Long>
-  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> J. Marc</Name>
+  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J. Marc</Name>
 </BikeStation>
 
 <BikeStation rdf:about="#128">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#BikeAvailableStation"/>
   <rdf:type rdf:resource="#StandFreeStation"/>
-  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</AvailableBikeStands>
-  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</AvailableBikes>
-  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> 1616423998</Lastupdate>
+  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</AvailableBikeStands>
+  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</AvailableBikes>
+  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1616512201</Lastupdate>
   <Lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45.457</Lat>
   <Long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.39241</Long>
-  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Technopole</Name>
+  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Technopole</Name>
 </BikeStation>
 
 <BikeStation rdf:about="#129">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#BikeAvailableStation"/>
   <rdf:type rdf:resource="#StandFreeStation"/>
-  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</AvailableBikeStands>
-  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</AvailableBikes>
-  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> 1616423628</Lastupdate>
+  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</AvailableBikeStands>
+  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</AvailableBikes>
+  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1616511830</Lastupdate>
   <Lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45.4357171</Lat>
   <Long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.3829931</Long>
-  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Roannelle</Name>
+  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roannelle</Name>
 </BikeStation>
 
 <BikeStation rdf:about="#130">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#BikeAvailableStation"/>
   <rdf:type rdf:resource="#StandFreeStation"/>
-  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</AvailableBikeStands>
-  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</AvailableBikes>
-  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> 1616423787</Lastupdate>
+  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</AvailableBikeStands>
+  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</AvailableBikes>
+  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1616511586</Lastupdate>
   <Lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45.420286</Lat>
   <Long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.392776</Long>
-  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Bicentenaire</Name>
+  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bicentenaire</Name>
 </BikeStation>
 
 <BikeStation rdf:about="#131">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#BikeAvailableStation"/>
   <rdf:type rdf:resource="#StandFreeStation"/>
-  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</AvailableBikeStands>
-  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</AvailableBikes>
-  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> 1616423589</Lastupdate>
+  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</AvailableBikeStands>
+  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</AvailableBikes>
+  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1616511789</Lastupdate>
   <Lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45.459291</Lat>
   <Long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.395342</Long>
-  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Technopole-Christian Cabal</Name>
+  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Technopole-Christian Cabal</Name>
 </BikeStation>
 
 <BikeStation rdf:about="#132">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdf:type rdf:resource="#BikeAvailableStation"/>
   <rdf:type rdf:resource="#StandFreeStation"/>
-  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</AvailableBikeStands>
-  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</AvailableBikes>
-  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> 1616423946</Lastupdate>
+  <AvailableBikeStands rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</AvailableBikeStands>
+  <AvailableBikes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</AvailableBikes>
+  <Lastupdate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1616512228</Lastupdate>
   <Lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45.45168</Lat>
   <Long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.388004</Long>
-  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Manufacture - Le Fil</Name>
+  <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manufacture - Le Fil</Name>
 </BikeStation>
 
 
