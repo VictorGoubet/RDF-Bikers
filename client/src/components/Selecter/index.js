@@ -20,7 +20,8 @@ class Selecter extends React.Component {
                                  'Long':x.long, 
                                  'AvailableBikes':x.ab, 
                                  'AvailableBikesStands':x.abs,
-                                 'Type':x.type}))
+                                 'Type':x.type,
+                                 'id':x.s.split('#').pop()}))
     return res
   }
 
@@ -28,11 +29,16 @@ class Selecter extends React.Component {
     await this.setState({statecity:event.target.value})
     await this.setState({stateBox1:false})
     await this.setState({stateBox2:false})
+    
 
     var res = this.state.statecity === '---'?[]:await this.get_data_by_link(`/getAllData?city=${this.state.statecity}`)
     
     await this.props.set_stations(res)
     await this.setState({n:this.props.stations.length})
+    if(this.state.statecity !== '---'){
+      await this.props.set_center({lat:this.props.stations[0].Lat, lng:this.props.stations[0].Long})
+    }
+    
   }
   
 
