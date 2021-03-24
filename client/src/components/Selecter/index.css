@@ -1,0 +1,26 @@
+.mainselecter{
+
+    position:flex;
+    height:50px;
+}
+
+.checkboxs{
+    float:right;
+    position:flex;
+    width:80%;
+    height:20px;
+}
+.box2{
+    float:right;
+    margin-right: 10px;
+}
+
+.box1{
+    float:right;
+    margin-right: 50px;
+}
+
+.count{
+    text-align:center
+}
+

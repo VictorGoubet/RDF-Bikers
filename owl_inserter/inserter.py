@@ -1,5 +1,7 @@
 from owlready2 import sync_reasoner_pellet, destroy_entity
+from owlready2 import get_ontology
 import pickle
+import sys
 
 def inserter(file, onto, save_path, reasoner=False):
   with open(file, 'rb') as f:
@@ -19,7 +21,6 @@ def inserter(file, onto, save_path, reasoner=False):
                   'Lastupdate':s.Lastupdate,
                   'AvailableBikes': s.AvailableBikes,
                   'AvailableBikeStands': s.AvailableBikeStands}
-
       map_list[predicate].append(object)
 
   pre_reasoner(onto)
@@ -54,6 +55,8 @@ def convertisor(data):
     res = o
   return res
 
+def owl_inserter(city):
+  onto = get_ontology("./ontology/bike.owl").load()
+  inserter(f'./rdf_data/Triple_Bike{city}.obj', onto, f'./ontology/{city}.owl', reasoner=True)
 
-
-  
+owl_inserter(sys.argv[1])

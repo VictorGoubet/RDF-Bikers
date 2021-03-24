@@ -22,45 +22,69 @@ class SparqlQueries:
   
   # Some queries
 
-  def selectAll(self):
-      query = """PREFIX ns:<http://www.semanticweb.org/victo/ontologies/2021/2/bike#> 
-                 SELECT ?s ?p ?o WHERE { 
-                    ?s ?p ?o . 
-                 }"""
-
-      qres = self.graph.query(query)
-      return self.extract_res(qres, ['s', 'p', 'o'])
-
   def getStandFreeStation(self, disp=True):
     query = """PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
                PREFIX  ns:<http://www.semanticweb.org/victo/ontologies/2021/2/bike#>
-               SELECT ?name WHERE { 
+               SELECT ?s ?abs ?ab ?lu ?name ?lat ?long  WHERE { 
                   ?s rdf:type ns:StandFreeStation . 
                   ?s ns:Name ?name .
-               }"""
-    qres = self.graph.query(query)
-    return self.extract_res(qres, ['name'], disp)
-
-  def getStandFullStation(self, disp=True):
-    query = """PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-               PREFIX  ns:<http://www.semanticweb.org/victo/ontologies/2021/2/bike#>
-               SELECT ?name WHERE { 
-                  ?s rdf:type ns:StandFullStation . 
+                  ?s ns:Lat ?lat .
+                  ?s ns:Long ?long .
                   ?s ns:Name ?name .
+                  ?s ns:AvailableBikeStands ?abs .
+                  ?s ns:AvailableBikes ?ab .
+                  ?s ns:Lastupdate ?lu .
                }"""
     qres = self.graph.query(query)
-    return self.extract_res(qres, ['name'], disp)
+    return self.extract_res(qres, ['abs', 'ab', 'lu', 'name', 'lat', 'long'], disp)
 
+  def getAllFreeStation(self, disp=True):
+      query = """PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+                PREFIX  ns:<http://www.semanticweb.org/victo/ontologies/2021/2/bike#>
+                SELECT ?s ?abs ?ab ?lu ?name ?lat ?long  WHERE { 
+                    ?s rdf:type ns:StandFreeStation . 
+                    ?s rdf:type ns:BikeAvailableStation .
+                    ?s ns:Name ?name .
+                    ?s ns:Lat ?lat .
+                    ?s ns:Long ?long .
+                    ?s ns:Name ?name .
+                    ?s ns:AvailableBikeStands ?abs .
+                    ?s ns:AvailableBikes ?ab .
+                    ?s ns:Lastupdate ?lu .
+                }"""
+      qres = self.graph.query(query)
+      return self.extract_res(qres, ['abs', 'ab', 'lu', 'name', 'lat', 'long'], disp)
 
-  def getAllCoord(self, disp=True):
+  def getBikeFreeStation(self, disp=True):
     query = """PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
                PREFIX  ns:<http://www.semanticweb.org/victo/ontologies/2021/2/bike#>
-               SELECT ?s ?x ?y WHERE { 
-                  ?s ns:Lat ?x . 
-                  ?s ns:Long ?y .
+               SELECT ?s ?abs ?ab ?lu ?name ?lat ?long  WHERE { 
+                  ?s rdf:type ns:BikeAvailableStation . 
+                  ?s ns:Name ?name .
+                  ?s ns:Lat ?lat .
+                  ?s ns:Long ?long .
+                  ?s ns:Name ?name .
+                  ?s ns:AvailableBikeStands ?abs .
+                  ?s ns:AvailableBikes ?ab .
+                  ?s ns:Lastupdate ?lu .
                }"""
     qres = self.graph.query(query)
-    return self.extract_res(qres, ['s', 'x', 'y'], disp)
+    return self.extract_res(qres, ['abs', 'ab', 'lu', 'name', 'lat', 'long'], disp)
+
+
+  def getAllData(self, disp=True):
+    query = '''PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+               PREFIX  ns:<http://www.semanticweb.org/victo/ontologies/2021/2/bike#>
+              SELECT ?s ?abs ?ab ?lu ?name ?lat ?long WHERE { 
+                  ?s ns:Lat ?lat .
+                  ?s ns:Long ?long .
+                  ?s ns:Name ?name .
+                  ?s ns:AvailableBikeStands ?abs .
+                  ?s ns:AvailableBikes ?ab .
+                  ?s ns:Lastupdate ?lu .
+               }'''
+    qres = self.graph.query(query)
+    return self.extract_res(qres, ['s', 'abs', 'ab', 'lu', 'name', 'lat', 'long'], disp)
 
   def getInfo_by_id(self, id, disp=True):
     query = '''PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>

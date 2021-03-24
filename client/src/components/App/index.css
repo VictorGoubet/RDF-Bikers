@@ -1,0 +1,25 @@
+.mainApp {
+    display: flex;
+    padding: 20px;
+    height:90%;
+    overflow: hidden;
+}
+
+.left {
+    width: 40%;
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    border-radius:20px 0 0 20px;
+    margin:20px;
+
+}
+
+
+.right {
+    width: 60%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 0 20px 20px 0;
+    margin:20px;
+}  
