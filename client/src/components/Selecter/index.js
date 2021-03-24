@@ -68,10 +68,22 @@ class Selecter extends React.Component {
     this.props.set_stations(res)
 
   }
+
+  reload = async () => {
+    await window.fetch('/reload_all');
+    alert('Ontology loaded !')
+  }
  
   render() {
     return (
     <div className='mainselecter'>
+      <div className='leftcontainer'>
+
+        <div className='reload' onClick={this.reload}>
+          <button className="btn-green"> 
+            <img className="icon" alt='Actualise ontologies' src="https://htmlacademy.ru/assets/icons/reload-6x-white.png"/> Reload
+          </button>
+        </div>
 
         <select value={this.state.statecity} onChange={this.select_stations}>
           <option>---</option>
@@ -79,6 +91,13 @@ class Selecter extends React.Component {
           <option>Paris</option>
           <option>Lyon</option>
         </select>
+
+        
+        
+
+
+      </div>
+      
 
       <div className='checkboxs'>
         <div className='box1'>

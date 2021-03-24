@@ -1,4 +1,5 @@
 body{
     background: linear-gradient(to left top,#BAF3CE,#A8F0C1);
+    overflow:hidden;
 }
 
