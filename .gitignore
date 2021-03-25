@@ -2,3 +2,4 @@
 *.toml
 __pycache__/
 venv/
+*.env
