@@ -79,9 +79,12 @@ class Selecter extends React.Component {
 
     await this.props.set_copy_stations(res)
     
-    let list_id = res.map(x=>x.id)
-    let final_res = this.props.stations.filter(x=>list_id.includes(x.id))
-    this.props.set_stations(final_res)
+    if(!this.props.toggle){
+      let list_id = res.map(x=>x.id)
+      res = this.props.copy_near.filter(x=>list_id.includes(x.id))
+    }
+    
+    this.props.set_stations(res)
 
   }
 

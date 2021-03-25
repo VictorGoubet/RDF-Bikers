@@ -1,7 +1,7 @@
 import './index.css';
 import React from 'react';
 
-function Station({x, set_stations, stations, copy_stations, toggle, set_toggle}) {
+function Station({x, set_stations, stations, copy_stations, toggle, set_toggle, set_copy_near}) {
 
   const round = (number, X) => {
     X = (!X ? 3 : X);
@@ -27,6 +27,7 @@ function Station({x, set_stations, stations, copy_stations, toggle, set_toggle})
     if(toggle){
       let res = stations.filter(y=>compute_d(x.Lat, x.Long, y.Lat, y.Long )<=300)
       set_stations(res)
+      set_copy_near(res)
     }
     else{
      set_stations(copy_stations)
