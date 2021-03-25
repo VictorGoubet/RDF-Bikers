@@ -36,7 +36,7 @@ class SparqlQueries:
                   ?s ns:Lastupdate ?lu .
                }"""
     qres = self.graph.query(query)
-    return self.extract_res(qres, ['abs', 'ab', 'lu', 'name', 'lat', 'long'], disp)
+    return self.extract_res(qres, ['s', 'abs', 'ab', 'lu', 'name', 'lat', 'long'], disp)
 
   def getAllFreeStation(self, disp=True):
       query = """PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -53,7 +53,7 @@ class SparqlQueries:
                     ?s ns:Lastupdate ?lu .
                 }"""
       qres = self.graph.query(query)
-      return self.extract_res(qres, ['abs', 'ab', 'lu', 'name', 'lat', 'long'], disp)
+      return self.extract_res(qres, ['s', 'abs', 'ab', 'lu', 'name', 'lat', 'long'], disp)
 
   def getBikeFreeStation(self, disp=True):
     query = """PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -69,7 +69,7 @@ class SparqlQueries:
                   ?s ns:Lastupdate ?lu .
                }"""
     qres = self.graph.query(query)
-    return self.extract_res(qres, ['abs', 'ab', 'lu', 'name', 'lat', 'long'], disp)
+    return self.extract_res(qres, ['s', 'abs', 'ab', 'lu', 'name', 'lat', 'long'], disp)
 
 
   def getAllData(self, disp=True):
