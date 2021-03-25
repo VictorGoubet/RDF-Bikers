@@ -12,6 +12,7 @@
     background-color: white;
     border-radius:20px 0 0 20px;
     margin:20px;
+    box-shadow: -10px 10px 20px #126930;
 
 }
 
@@ -22,6 +23,7 @@
     background-color: white;
     border-radius: 0 20px 20px 0;
     margin:20px;
+    box-shadow: 10px 10px 20px #126930;
 
 
 }  

@@ -12,12 +12,14 @@ function App(){
   
    const [stations, set_stations] = React.useState([]);
    const [center, set_center] = React.useState({lat:48.87397217237368, lng:2.348388757504776});
+   const [copy_stations, set_copy_stations] = React.useState(stations);
+   const [toggle, set_toggle] = React.useState(true);
 
   return (
     <div className='mainApp'>
       <div className='left'>  
-        <Selecter className='selecter' stations={stations} set_stations={set_stations} set_center={set_center} />
-        <Infodisplayer className='info_displayer' stations={stations}/>
+        <Selecter className='selecter' stations={stations} set_stations={set_stations} set_center={set_center} set_copy_stations={set_copy_stations} set_toggle={set_toggle}/>
+        <Infodisplayer className='info_displayer' stations={stations} set_stations={set_stations} copy_stations={copy_stations} toggle={toggle} set_toggle={set_toggle} />
       </div>
       <div className='right'>
 

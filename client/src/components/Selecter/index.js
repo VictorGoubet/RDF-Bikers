@@ -6,8 +6,7 @@ class Selecter extends React.Component {
   state = {
     stateBox1:false,
     stateBox2:false,
-    statecity:'---',
-    n:this.props.stations.length
+    statecity:'---'
   };
 
 
@@ -15,13 +14,18 @@ class Selecter extends React.Component {
     let data =  await window.fetch(link);
     data = await data.json()
 
-    let res = data.body.map(x=>({'Name':x.name, 
-                                 'Lat':x.lat, 
-                                 'Long':x.long, 
-                                 'AvailableBikes':x.ab, 
-                                 'AvailableBikesStands':x.abs,
-                                 'Type':x.type,
-                                 'id':x.s.split('#').pop()}))
+
+    let res = data.body.map(x=>{
+      let lu = x.lu.includes('-')?x.lu.split(" ")[0]:new Date(parseInt(x.lu)*1000).toLocaleDateString()
+      return {'Name':x.name, 
+              'Lat':x.lat, 
+              'Long':x.long, 
+              'AvailableBikes':x.ab, 
+              'AvailableBikesStands':x.abs,
+              'Type':x.type,
+              'lu':lu,
+              'id':x.s.split('#').pop()}
+            })
     return res
   }
 
@@ -34,11 +38,12 @@ class Selecter extends React.Component {
     var res = this.state.statecity === '---'?[]:await this.get_data_by_link(`/getAllData?city=${this.state.statecity}`)
     
     await this.props.set_stations(res)
-    await this.setState({n:this.props.stations.length})
+    
     if(this.state.statecity !== '---'){
       await this.props.set_center({lat:this.props.stations[0].Lat, lng:this.props.stations[0].Long})
     }
-    
+    await this.props.set_copy_stations(this.props.stations)
+    await this.props.set_toggle(true)
   }
   
 
@@ -71,7 +76,12 @@ class Selecter extends React.Component {
       url = `/getAllData?city=${this.state.statecity}`
     }
     let res = await this.get_data_by_link(url)
-    this.props.set_stations(res)
+
+    await this.props.set_copy_stations(res)
+    
+    let list_id = res.map(x=>x.id)
+    let final_res = this.props.stations.filter(x=>list_id.includes(x.id))
+    this.props.set_stations(final_res)
 
   }
 
@@ -98,10 +108,6 @@ class Selecter extends React.Component {
           <option>Lyon</option>
         </select>
 
-        
-        
-
-
       </div>
       
 
@@ -118,7 +124,7 @@ class Selecter extends React.Component {
 
       </div>
       
-      <p className="count">Number of stations: {this.state.n} </p>
+      <p className="count">Number of stations: {this.props.stations.length} </p>
     </div>
     )};
 }
