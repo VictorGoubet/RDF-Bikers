@@ -60,4 +60,4 @@ def getAllData():
   response = {"body":response}
   return response
 
-app.run()
+app.run(port=5000)
