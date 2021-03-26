@@ -4,7 +4,7 @@
 
 contextLyon = {
   "@vocab": "http://schema.org/",
-	"@base": "http://data.org/",
+	"@base": "http://www.semanticweb.org/victo/ontologies/2021/2/bike/",
   "type":None,
   "properties":"@nest",
     "number": "@id",
@@ -41,7 +41,7 @@ contextLyon = {
 
 contextStEtienne1 = {
   "@vocab": "http://schema.org/",
-	"@base": "http://data.org/",
+	"@base": "http://www.semanticweb.org/victo/ontologies/2021/2/bike/",
   "station_id": "@id",
   "num_bikes_available": {"@id":"AvailableBikes", "@type":"xsd:integer"},
   "num_bikes_disabled": None,
@@ -55,7 +55,7 @@ contextStEtienne1 = {
 
 contextStEtienne2 = {
   "@vocab": "http://schema.org/",
-	"@base": "http://data.org/",
+	"@base": "http://www.semanticweb.org/victo/ontologies/2021/2/bike/",
   "station_id": "@id",
   "name": {"@id":"Name", "@type":"xsd:string"},
   "lat": {"@id":"Lat", "@type":"xsd:decimal"},
@@ -66,7 +66,7 @@ contextStEtienne2 = {
 
 contextParis1 = {
   "@vocab": "http://schema.org/",
-	"@base": "http://data.org/",
+	"@base": "http://www.semanticweb.org/victo/ontologies/2021/2/bike/",
   "stationCode": "@id",
   "station_id": None,
   "num_bikes_available": None,
@@ -83,7 +83,7 @@ contextParis1 = {
 
 contextParis2 = {
   "@vocab": "http://schema.org/",
-	"@base": "http://data.org/",
+	"@base": "http://www.semanticweb.org/victo/ontologies/2021/2/bike/",
   "station_id": None,
   "name": {"@id":"Name", "@type":"xsd:string"},
   "lat": {"@id":"Lat", "@type":"xsd:decimal"},
